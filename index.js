@@ -38,6 +38,11 @@ class Persona{
     hablar(){
         return null
     }
+
+    ///metodo para convertir kilometros a millas, kilometros a pies, etc.
+    convertir(){
+
+    }
 }
 
 var persona1 = new Persona(1, "Luke", "Skywalker", new Date(2005, 9, 24)) // el mes es indexado como 0
